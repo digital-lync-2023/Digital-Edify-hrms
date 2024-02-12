@@ -2,9 +2,9 @@
 This is all about the digital edify hrms project starting on 12-Feb-2024
 
 ## Tech Stack
-  Frontend: React.JS
-  Backend: Java/Spring Boot
-  Databases: MySQL & MongoDB
+- Frontend: React.JS
+- Backend: Java/Spring Boot
+- Databases: MySQL & MongoDB
 
 ## HRMS Architecture Diagram
 ![Architecture_diagram](https://github.com/digital-lync-2023/Digital-Edify-hrms/blob/DEV/architecture/HRMS%20Architecture%20Diagram.svg)
