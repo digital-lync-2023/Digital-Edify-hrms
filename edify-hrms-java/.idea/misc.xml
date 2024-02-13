@@ -5,9 +5,16 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/EmployeeDataManagementService/pom.xml" />
+        <option value="$PROJECT_DIR$/ApplicatTrackingSystemService/pom.xml" />
+        <option value="$PROJECT_DIR$/EmployeeOnboardingService/pom.xml" />
+        <option value="$PROJECT_DIR$/ApiGateway/pom.xml" />
+        <option value="$PROJECT_DIR$/ConfigServer/pom.xml" />
+        <option value="$PROJECT_DIR$/EmployeeAttendanceTimeService/pom.xml" />
+        <option value="$PROJECT_DIR$/EmployeeSelfService/pom.xml" />
+        <option value="$PROJECT_DIR$/ServiceRegistry/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" project-jdk-name="20" project-jdk-type="JavaSDK" />
 </project>

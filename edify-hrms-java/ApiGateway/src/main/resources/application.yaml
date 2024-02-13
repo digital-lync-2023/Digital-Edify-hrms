@@ -1,0 +1,9 @@
+#name of the service
+spring:
+  application:
+    name: ApiGateway
+
+#server ports
+server:
+  port: 9090
+

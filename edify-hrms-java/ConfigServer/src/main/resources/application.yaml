@@ -1,0 +1,9 @@
+#name of the service
+spring:
+  application:
+    name: ConfigServer
+
+#server ports
+server:
+  port: 8888
+

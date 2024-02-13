@@ -1,0 +1,9 @@
+#name of the service
+spring:
+  application:
+    name: EmployeeOnboardingService
+
+#server ports
+server:
+  port: 8081
+

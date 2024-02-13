@@ -1,0 +1,9 @@
+#name of the service
+spring:
+  application:
+    name: EmployeeSelfService
+
+#server ports
+server:
+  port: 8082
+

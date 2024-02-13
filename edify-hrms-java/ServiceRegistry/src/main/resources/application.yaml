@@ -1,0 +1,14 @@
+#name of the service
+spring:
+  application:
+    name: ServiceRegistry
+
+#service port no
+server:
+  port: 8761
+
+#eureka server is also client so disable that
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false

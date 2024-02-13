@@ -1,0 +1,10 @@
+
+#name of the service
+spring:
+  application:
+    name: ApplicantTrackingService
+
+#server ports
+server:
+  port: 8084
+
