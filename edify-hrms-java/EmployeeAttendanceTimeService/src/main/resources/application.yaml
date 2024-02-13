@@ -1,10 +1,6 @@
-
 #name of the service
 spring:
   application:
     name: EmployeeAttendanceService
-
-#server ports
-server:
-  port: 8083
-
+  config:
+    import: optional:configserver:http://localhost:8888
