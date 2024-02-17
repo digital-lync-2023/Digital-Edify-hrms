@@ -1,0 +1,19 @@
+* {
+  font-family: "Inria Serif", serif;
+}
+
+.image {
+  height: 100vh;
+  background-image: url("../../assets/login.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 40%;
+}
+
+input {
+  border: 1px solid black;
+}
+
+.login {
+  width: 50%;
+}

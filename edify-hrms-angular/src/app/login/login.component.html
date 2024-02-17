@@ -1,0 +1,58 @@
+<div class="flex relative">
+  <div class="image text-center w-3/4">
+    <div class="text-white mt-96 items-end justify-items-center text-3xl">
+      <h1 class="pt-20">
+        HR Lync is your <br />
+        comprehensive HRMS
+      </h1>
+      <p class="text-black text-sm pt-2 font-bold">
+        Manage emplovee profiles, leave performance, <br />
+        payroll, and scheduling.
+      </p>
+    </div>
+  </div>
+  <div class="w-2/4 grid h-screen place-items-center py-36">
+    <div class="login">
+      <h2 class="text-3xl font-extrabold my-5">Log in</h2>
+      <form
+        #loginForm="ngForm"
+        (submit)="login(loginForm.value)"
+        ngNativeValidate
+        #form
+      >
+        <div class="flex flex-col">
+          <label class="font-bold">Employee ID</label>
+          <input
+            type="text"
+            name="userEmail"
+            class="my-5 p-1"
+            required
+            placeholder="Enter Employee ID"
+            ngModel
+          />
+        </div>
+        <div class="flex flex-col">
+          <label class="font-bold">Password</label>
+          <input
+            type="password"
+            class="my-5 p-1"
+            name="password"
+            required
+            placeholder="*************"
+            ngModel
+          />
+        </div>
+
+        <button type="submit" class="bg-black w-full text-white my-5 p-1">
+          Login
+        </button>
+        <a class="font-bold" (click)="forgotPwd()">Forgot password?</a>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="flex absolute top-4 right-8 w-30 h-10">
+  <img src="../../assets/DL-icon.png" alt="" />
+  <h1 class="text-3xl ps-1 font-extrabold">HR Lync</h1>
+</div>

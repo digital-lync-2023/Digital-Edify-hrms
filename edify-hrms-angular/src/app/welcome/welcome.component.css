@@ -1,0 +1,15 @@
+* {
+  font-family: "Inria Serif", serif;
+}
+
+.image {
+  height: 100vh;
+  background-image: url("../../assets/welcome.jpeg");
+  background-size: cover;
+  background-position-y: 40%;
+}
+
+button {
+  bottom: 18%;
+  right: 46%;
+}
